@@ -1,0 +1,22 @@
+{
+  "name": "Citrus Console",
+  "author": "Urmate",
+  "description": "A fast runtime theme mixing lime, ink, sky, and clean utility surfaces.",
+  "tokens": {
+    "background": "#f8fff0",
+    "surface": "#ffffff",
+    "ink": "#151d12",
+    "muted": "#5f6f58",
+    "primary": "#6a9f1f",
+    "accent": "#ff6b35",
+    "secondary": "#168aad",
+    "line": "#dcebc8"
+  },
+  "motion": {
+    "enter": "180ms quick rise",
+    "feedback": "runtime scan line",
+    "emphasis": "snappy button lift"
+  },
+  "radius": "13px",
+  "shadow": "0 22px 58px rgba(106, 159, 31, 0.15)"
+}

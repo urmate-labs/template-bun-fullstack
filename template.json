@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "id": "bun-fullstack",
+  "aliases": [
+    "bun-node",
+    "bun"
+  ],
+  "name": "Bun Full-stack Monorepo",
+  "type": "monorepo",
+  "category": "fullstack",
+  "author": "Urmate",
+  "createdAt": "2026-05-29",
+  "stack": [
+    "Bun",
+    "TypeScript",
+    "HTML",
+    "CSS"
+  ],
+  "tags": [
+    "bun",
+    "fullstack",
+    "monorepo"
+  ],
+  "path": "monorepo/bun-fullstack",
+  "commands": {
+    "install": "bun install",
+    "dev": "bun run dev",
+    "build": "No build step",
+    "preview": "http://localhost:3000"
+  },
+  "features": [
+    "Bun web server",
+    "Bun API server",
+    "Shared theme tokens",
+    "Fast local loop"
+  ],
+  "theme": {
+    "name": "Citrus Console",
+    "description": "A fast runtime theme mixing lime, ink, sky, and clean utility surfaces.",
+    "colors": {
+      "background": "#f8fff0",
+      "surface": "#ffffff",
+      "ink": "#151d12",
+      "muted": "#5f6f58",
+      "primary": "#6a9f1f",
+      "accent": "#ff6b35",
+      "secondary": "#168aad",
+      "line": "#dcebc8"
+    },
+    "motion": {
+      "enter": "180ms quick rise",
+      "feedback": "runtime scan line",
+      "emphasis": "snappy button lift"
+    },
+    "radius": "13px",
+    "shadow": "0 22px 58px rgba(106, 159, 31, 0.15)",
+    "author": "Urmate"
+  },
+  "builder": {
+    "compatibleWith": "Urmate Builder",
+    "starterMode": "template",
+    "previewPort": 3000,
+    "notes": "Copy the template folder into a new builder workspace and run the dev command."
+  }
+}

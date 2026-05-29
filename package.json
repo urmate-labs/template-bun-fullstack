@@ -1,0 +1,10 @@
+{
+  "name": "urmate-bun-fullstack-template",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "bun run dev:web & bun run dev:api",
+    "dev:web": "bun --watch apps/web/src/server.ts",
+    "dev:api": "bun --watch apps/api/src/server.ts"
+  }
+}
